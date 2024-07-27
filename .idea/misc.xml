@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Real-ESRGAN" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Real-ESRGAN" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="TorchGPU" project-jdk-type="Python SDK" />
 </project>
