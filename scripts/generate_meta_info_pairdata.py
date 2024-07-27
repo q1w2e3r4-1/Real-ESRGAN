@@ -8,6 +8,7 @@ def main(args):
     # sca images
     img_paths_gt = sorted(glob.glob(os.path.join(args.input[0], '*')))
     img_paths_lq = sorted(glob.glob(os.path.join(args.input[1], '*')))
+    print(img_paths_gt, img_paths_lq)
 
     assert len(img_paths_gt) == len(img_paths_lq), ('GT folder and LQ folder should have the same length, but got '
                                                     f'{len(img_paths_gt)} and {len(img_paths_lq)}.')
